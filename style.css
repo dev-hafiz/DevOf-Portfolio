@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 3%;
+}
+.half-width img {
+    width: 90%;
+}
+.color-span{
+    color: orange;
+}
+.linkedin-Contact{
+    text-decoration: none;
+    background-image: linear-gradient(ORANGE,#ff6947);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 900;
+}
+
+#top-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#Experience-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.common-item {
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding-left: 30px;
+}
+
+.bottom-section{
+    background-image:url(images/exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#bottom-id-make{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#bottom-your-make{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(15, 26, 128),rgb(9, 1, 31));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
